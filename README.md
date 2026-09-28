@@ -19,6 +19,8 @@ course by Maksym Marakhovskyi / Motion Design School.
 | 09 | Inner Space | Multi-layer parallax rigs, cursor-tracked particles, nested artboards |
 | 10 | Pluto Routine | Interactive planet, follow-pointer movement, mixing & blending |
 | 11 | Space Duo | Planet switching, basic rig & state machine, color skins |
+| 12 | Flying Pencil | Faux-3D setups, nested artboards, rigging & animation techniques |
+| 13 | Wavy Plant | Bone rigging, FK setups, animation tricks |
 | Bonus | Main Menu (hero) | Radial menu, nested artboards, click navigation |
 
 ## Preview page
