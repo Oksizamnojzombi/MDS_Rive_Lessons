@@ -41,3 +41,5 @@ mount("canvas8", "08.Lesson_08/Final_Result/08.mds_lesson08_octopus.riv", "Octop
 mount("canvas9", "09.Lesson_09/Final_Result/09.mds_lesson09.riv", "State Machine 1", "Inner Space");
 mount("canvas10", "10.Lesson_10/Final_Result/10.mdl_pluto_lesson10.riv", "PlutoRoutine", "Planet_Remap");
 mount("canvas11", "11.Lesson_11/Final_Result/11.mds_lesson11_spaceduo.riv", "SpaceDuo");
+mount("canvas12", "12.Lesson_12/Final_Result/12.mds_lesson12_pencil.riv", "FlyingPencil", "pencil comp");
+mount("canvas13", "13.Lesson_13/Final_Result/13.mds_lesson13_plant.riv", "WavyPlant");
