@@ -21,6 +21,7 @@ course by Maksym Marakhovskyi / Motion Design School.
 | 11 | Space Duo | Planet switching, basic rig & state machine, color skins |
 | 12 | Flying Pencil | Faux-3D setups, nested artboards, rigging & animation techniques |
 | 13 | Wavy Plant | Bone rigging, FK setups, animation tricks |
+| 14 | Double Balance | Complex balance rig, seamless cyclical animation transitions |
 | Bonus | Main Menu (hero) | Radial menu, nested artboards, click navigation |
 
 ## Preview page
