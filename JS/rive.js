@@ -43,4 +43,4 @@ mount("canvas10", "10.Lesson_10/Final_Result/10.mdl_pluto_lesson10.riv", "PlutoR
 mount("canvas11", "11.Lesson_11/Final_Result/11.mds_lesson11_spaceduo.riv", "SpaceDuo");
 mount("canvas12", "12.Lesson_12/Final_Result/12.mds_lesson12_pencil.riv", "FlyingPencil", "pencil comp");
 mount("canvas13", "13.Lesson_13/Final_Result/13.mds_lesson13_plant.riv", "WavyPlant");
-mount("canvas14", "14.Lesson_14/Final_Result/14.mds_lesson14_balance.riv", "DoubleBalance");
+mount("canvas14", "14.Lesson_14/Final_Result/14.mds_lesson14_balance.riv", "DoubleBalance"); 
