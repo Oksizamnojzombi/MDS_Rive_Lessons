@@ -52,6 +52,7 @@ const LESSONS = [
   ["canvas12", "12.Lesson_12/Final_Result/12.mds_lesson12_pencil.riv", "FlyingPencil", "pencil comp"],
   ["canvas13", "13.Lesson_13/Final_Result/13.mds_lesson13_plant.riv", "WavyPlant"],
   ["canvas14", "14.Lesson_14/Final_Result/14.mds_lesson14_balance.riv", "DoubleBalance"],
+  ["canvas15", "15.Lesson_15/Final_Result/15.mds_lesson15_followbat.riv", "FollowingBat"],
 ];
 
 const lessonData = new Map();

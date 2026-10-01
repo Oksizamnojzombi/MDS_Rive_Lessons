@@ -22,6 +22,7 @@ course by Maksym Marakhovskyi / Motion Design School.
 | 12 | Flying Pencil | Faux-3D setups, nested artboards, rigging & animation techniques |
 | 13 | Wavy Plant | Bone rigging, FK setups, animation tricks |
 | 14 | Double Balance | Complex balance rig, seamless cyclical animation transitions |
+| 15 | Follow Bat | Advanced shape techniques, cursor-follow & gaze-listener setup |
 | Bonus | Main Menu (hero) | Radial menu, nested artboards, click navigation |
 
 ## Preview page
