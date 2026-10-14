@@ -23,15 +23,26 @@ course by Maksym Marakhovskyi / Motion Design School.
 | 13 | Wavy Plant | Bone rigging, FK setups, animation tricks |
 | 14 | Double Balance | Complex balance rig, seamless cyclical animation transitions |
 | 15 | Follow Bat | Advanced shape techniques, cursor-follow & gaze-listener setup |
+| 16 | Interactive Text | Text in Rive, text-based setups, custom rigs |
 | Bonus | Main Menu (hero) | Radial menu, nested artboards, click navigation |
+
+> Lesson 09 (Inner Space) is temporarily commented out in `index.html` while
+> an animation glitch in that file is being tracked down.
 
 ## Preview page
 
 `index.html` — dark-theme portfolio page:
 
 - **Hero** — full-width interactive radial menu (bonus lesson, 2000×1000)
+- **Real Work** — a section for production pieces outside the course
+  (currently: the `AVQ_logo/avq_interactivelogo.riv` dotted-logo animation).
+  The surrounding copy/colors are a pixel-accurate mockup of an Avanquest
+  Figma design ("PDF SDK, API & Web SDK.") used to preview the logo in context
+  for a manager review — swap in real copy and the site's own theme tokens
+  (`--bg`, `--card`, `--text`, `--muted`) once that's done.
 - **Gallery** — masonry grid of lesson cards; hover a card for a description
-  and an interaction hint
+  and an interaction hint. Cards mount lazily (`IntersectionObserver`, see
+  `JS/rive.js`) so the browser isn't juggling 15+ WebGL2 contexts at once.
 - Rive runtime: `@rive-app/webgl2` (required — some blend-mode effects are
   ignored by the Canvas2D renderer)
 
