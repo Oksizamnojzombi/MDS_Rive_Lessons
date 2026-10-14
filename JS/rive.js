@@ -36,7 +36,7 @@ function mount(canvasId, src, stateMachine, artboard) {
 
 mount("heroCanvas", HERO_SRC, HERO_STATE_MACHINE);
 
-// ---- lesson cards: [canvasId, src, stateMachine, artboard?] ----
+// ---- lesson cards + "Real Work" logo: [canvasId, src, stateMachine, artboard?] ----
 const LESSONS = [
   ["canvas1", "01.Lesson_01/Final_Result/01.mds_lesson_01_jumping_ball.riv", "Jumping_Ball"],
   ["canvas2", "02.Lesson_02/Final_Result/02.mds_lesson02_waterbubble.riv", "BubleStateMashine"],
@@ -53,6 +53,8 @@ const LESSONS = [
   ["canvas13", "13.Lesson_13/Final_Result/13.mds_lesson13_plant.riv", "WavyPlant"],
   ["canvas14", "14.Lesson_14/Final_Result/14.mds_lesson14_balance.riv", "DoubleBalance"],
   ["canvas15", "15.Lesson_15/Final_Result/15.mds_lesson15_followbat.riv", "FollowingBat"],
+  ["canvas16", "16.Lesson_16/Final_Result/16.mds_lesson16_text.riv", "InteractText", "text Remap"],
+  ["canvasLogo", "AVQ_logo/avq_interactivelogo.riv", "Interactive_logo"],
 ];
 
 const lessonData = new Map();

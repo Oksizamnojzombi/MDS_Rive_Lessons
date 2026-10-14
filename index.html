@@ -6,7 +6,7 @@
     <title>Rive Lessons</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Sans:wght@600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="CSS/styles_dark.css" />
   </head>
   <body>
@@ -25,6 +25,26 @@
       </div>
     </header>
 
+    <!-- ===================== REAL WORK (production pieces beyond the course) ===================== -->
+    <section class="showcase" id="real-work">
+      <div class="showcase-head reveal">
+        <h2>Shots</h2>
+      </div>
+
+      <article class="showcase-item reveal">
+        <div class="showcase-text">
+          <h3 class="showcase-title">PDF SDK, API &amp; Web SDK.</h3>
+          <p class="showcase-desc">
+            With 40+ features in one integration, from one vendor
+          </p>
+        </div>
+        <div class="showcase-canvas">
+          <!-- TODO: once the logo .riv is ready, mount it in JS/rive.js (see the commented example near the LESSONS array) -->
+          <canvas id="canvasLogo" width="1200" height="600"></canvas>
+        </div>
+      </article>
+    </section>
+
     <!-- ===================== LESSONS GALLERY ===================== -->
     <main class="lessons" id="lessons">
       <div class="lessons-head reveal">
@@ -33,6 +53,25 @@
       </div>
 
       <div class="lessons-grid">
+
+        <article class="lesson-card reveal wide" style="--accent: var(--blue); --ar: 1000 / 500">
+          <div class="card-canvas">
+            <span class="card-num"></span>
+            <div class="canvas-inner"><canvas id="canvas16" width="1000" height="500"></canvas></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Interactive Text</h3>
+            <div class="card-reveal"><div>
+              <p class="card-desc">
+                Explored how text works in Rive, building several 
+                interactive text setups and a handful of custom rigs.
+              </p>
+              <p class="card-hint">
+                Move the cursor around the text, tap on screen to switch the type.
+              </p>
+            </div></div>
+          </div>
+        </article>
         
         <article class="lesson-card reveal" style="--accent: var(--lime); --ar: 500 / 900">
           <div class="card-canvas">
